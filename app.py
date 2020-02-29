@@ -1,5 +1,4 @@
 import os
-import sys
 import requests
 from flask import Flask, request
 import tensorflow as tf
@@ -163,7 +162,7 @@ def webhook():
                     print(sender_id)
                     print(recipient_id)
                     print(message_text)
-                    
+
                     response = chat(message_text, sender_id)
                     send_message(sender_id, response)
 
