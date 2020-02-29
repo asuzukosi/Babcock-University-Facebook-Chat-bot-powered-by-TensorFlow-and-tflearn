@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\User\\tensorEnv\\Hackathon3\\busabot.h5"
-all_model_checkpoint_paths: "C:\\Users\\User\\tensorEnv\\Hackathon3\\busabot.h5"
+model_checkpoint_path: "C:\\Users\\User\\tensorEnv\\Hackathon3\\busaBot.tflearn"
+all_model_checkpoint_paths: "C:\\Users\\User\\tensorEnv\\Hackathon3\\busaBot.tflearn"

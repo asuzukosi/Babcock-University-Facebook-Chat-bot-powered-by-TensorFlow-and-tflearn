@@ -1,10 +1,9 @@
 import os
 import requests
 from flask import Flask, request
-import tensorflow as tf
-import tflearn
 import numpy as np
 import random
+import tflearn
 import json
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
@@ -72,7 +71,6 @@ except:
 
     # print(output)
 
-tf.reset_default_graph()
 
 net = tflearn.input_data(shape=[None, len(training[0])])
 net = tflearn.fully_connected(net, 8)
@@ -83,10 +81,12 @@ net = tflearn.regression(net)
 
 model = tflearn.DNN(net)
 '''
+
 model.fit(training, output, n_epoch=3000, batch_size=8, show_metric="True")
-model.save("busabot.h5")
+model.save("busaBot.tflearn")
 '''
-model.load("busabot.h5")
+
+model.load("busaBot.tflearn")
 
 
 def bag_of_words(s, words):
@@ -101,6 +101,7 @@ def bag_of_words(s, words):
                 bag[i] = 1
 
     return np.array(bag)
+
 
 
 def chat(message, id):
@@ -126,6 +127,9 @@ def chat(message, id):
     else:
         response = "I didnt quite get that please ask another question"
         return (response)
+
+
+
 
 
 app = Flask(__name__)
@@ -205,4 +209,3 @@ def send_message(recipient_id, message_text):
 
 if __name__ == '__main__':
     app.run(debug=True)
-

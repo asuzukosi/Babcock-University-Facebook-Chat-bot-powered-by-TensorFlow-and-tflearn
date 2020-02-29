@@ -2,13 +2,11 @@ Flask==1.1.1
 Jinja2==2.10.3
 Click==7.0
 gunicorn==20.0.4
-h5py==2.10.0
 itsdangerous==1.1.0
 MarkupSafe==1.1.1
 nltk==3.4.5
 numpy==1.16.0
 requests==2.23.0
-tensorflow==1.15.0rc2
 tflearn==0.3.2
 Werkzeug==0.16.0
 setuptools==44.0.0
