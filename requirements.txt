@@ -8,9 +8,7 @@ MarkupSafe==1.1.1
 nltk==3.4.5
 numpy==1.16.0
 requests==2.23.0
-tensorboard==1.15.0
 tensorflow==1.15.0rc2
-tensorflow-estimator==1.15.1
 tflearn==0.3.2
 Werkzeug==0.16.0
 setuptools==44.0.0
