@@ -1,0 +1,103 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "hey"],
+         "responses": ["Hello!", "Hi whats up!", "How may i help you", "Hey there "],
+         "context_set": "greeting"
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Thank you for your time ", "See next time ", "Safe", "Goodbye"],
+         "context_set": "greeting"
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is babcock ", "what is your age", "how old are you", "age?", "when was babcock university established"],
+         "responses": ["I am 57 years old!", "57 years young ", "Babcock was established September 17th 1959", "Artificial intelligence has no age"],
+         "context_set": "greeting"
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me the Busa HelpBot.", "I'm the Busa HelpBot!", "I'm the Busa HelpBot aka Busa Bot."],
+         "context_set": "greeting"
+        },
+         {"tag": "location",
+         "patterns": ["Where are you", "What is your location ?", "where can i find you", "How can i find you"],
+         "responses": ["Im in Babcock University", "Im on the internet of Babcock University", "Im on the Internet"],
+         "context_set": "location"
+        },
+        {"tag": "state",
+         "patterns": ["whats up? ", "How far", "how you dey", "how are you doing", "how you dey"],
+         "responses": ["Im good , You?", "I dey", "Im doing well"],
+         "context_set": "greeting"
+        },
+        {"tag": "function",
+         "patterns": ["what do you do ", "what is you purpose ", "what is your Job", "why are you here", "what are you doing","doing what", "what do you like doing ", "what are you up to"],
+         "responses": ["Im here to answer common questions of babcock students ", "Im here to assist babcock students ", "Im here to put smiles on the faces of babcock students", "Answering questions"],
+         "context_set": "function"
+        },
+         {"tag": "food",
+         "patterns": ["where can i buy some food", "Im looking for where to buy food ", "Do you know where they sell food ", "where can i buy food", "im hungry", "i want food", "hungry", "I want chow", "where can i buy chow"],
+         "responses": ["You can buy food from BUSA house, Babrite or Babcock Guest House ", "From BUSA House, Babrite or Babcock Guest House", "The top places for getting a meal in babcock are the BUSA House, Babrite or the Guest House"],
+         "context_set": "food"
+        },
+        {"tag": "price-food",
+         "patterns": ["How much is food","How much for food","How  much is chow","How much is rice","How  much is spagetti"],
+         "responses": ["A meal should cost between 300 - 1500 naira in Babcock university","Food is quite cheap in babcock, you can buy food within a price range of 350 - 1500"],
+         "context_set": "food"
+        },
+         {"tag": "want",
+         "patterns": ["what do you want ", "what do you like", "do you want anything", "what should i get for you"],
+         "responses": ["I would like some guest house food", "Come and take me to Guest house", "All i want is guest house food"],
+         "context_set": "want"
+        },
+       {"tag": "babcock",
+         "patterns": ["what is babcock university", "Tell me about babcock University ", "babcock University", "how are you doing", "how you dey"],
+         "responses": ["A first-class Seventh-day Adventist institution, building servant leaders for a better world. As a private university, our academic programme provides a holistic education anchored on the harmonious development of the intellectual, physical, social, and spiritual potentials of our students, inspiring stable and noble character needed for effective leadership and service in the society ."],
+         "context_set": "babcock"
+        },
+        {"tag": "location-babcock",
+         "patterns": ["what is babcock university located ", "where is babcock ", "how far is babcock University"],
+         "responses": ["babcock university is located at illishan - remo , ogun state, Nigeria"],
+         "context_set": "babcock"
+        },
+         {"tag": "history",
+         "patterns": ["what is the history of babcock university","how was babcock university originated", "how did babcock university originate"],
+         "responses": ["BABCOCK UNIVERSITY (BU)—as it is now known—actually began on September 17, 1959 as Adventist College of West Africa (ACWA). Established by the Seventh-day Adventist Church as a senior college for training church workers from the West African sub-region, ACWA opened  its doors with only seven ministerial students."],
+         "context_set": "babcock"
+        },
+         {"tag": "departments-babcock",
+         "patterns": ["what departments does babcock university have", "what are the departments you have", "how many departments are in babcock university"],
+         "responses": ["the departments in babcock university are Benjamin Carson School of Medicine, Computing and Engineering Sciences, Education And Humanities, Law And Security Studies, Management Sciences, School of Nursing Sciences, Public and Allied Health, Science And Technology, Veronica Adeleke School of Social Sciences, College Of Postgraduate Studies"],
+         "context_set": "babcock"
+        },
+        {"tag": "core-values",
+         "patterns": ["what are the core values", "what are babcocks core values", "what are the core values of babcock"],
+         "responses": ["Excellence: our Culture, Integrity: our Promise, Accountability: our Moral, Team Spirit: our Strength, Servant Leadership: our Dignity, Autonomy Responsibility: our Passion, Adventist Heritage: our Commitment"],
+         "context_set": "babcock"
+        },
+        {"tag": "aim",
+         "patterns": ["what is are the aims and objective of babcock university ", "what is the purpose of babcock university ", "why babcock university", "what is the reason for babcock", "what is the aim of babcock"],
+         "responses": ["Adventist education prepares people for useful and joy-filled lives, fostering friendship with God, whole-person development, Bible-based values, and selfless service in accordance with the Seventh-day Adventist mission to the world."],
+         "context_set": "babcock"
+        },
+        {"tag": "sat-location",
+         "patterns": ["where is sat","how do i get to SAT","where is sat","SAT"],
+         "responses": ["To get to SAT from BUSA, firstly exit the busa compound then cross over to the right side of the road and then follow the walk path and go downnnn until you get to the tower and turn left , you should be looking at the SAT building ,then keep walking till you reach your desired destination"],
+         "context_set": "greeting"
+        },
+        {"tag": "bbs-location",
+         "patterns": ["where is bbs","how do i get to  bbs","bbs"],
+         "responses": ["To get to BBS from BUSA, firstly exit the busa compound and then cross over the road to the area with trees, and then enter though the walk path, the large building behind the fountain is your destination "],
+         "context_set": "babcock"
+        },
+       {"tag": "sabbath",
+         "patterns": ["what is sabbath", "why do we observe sabbath", "when is sabbath", "why is sabbath important", "sabbath"],
+         "responses": ["In keeping with biblical guidelines, the Sabbath begins at sunset on Friday and ends at sunset on Saturday. Babcock University community observes the Sabbath “according to the commandment . In this regard, all offices and work activities end at 1.00 p.m. on Friday to enable all employees prepare for the Sabbath."],
+         "context_set": "babcock"
+        },
+       {"tag": "dorcasing",
+         "patterns": ["what is dorcasing ", "why do people dorcas", "when is dorcasing time"],
+         "responses": ["Dorcasing is when you go to see someone of the opposite sex in the night for the purpose of relaxation and companionship"],
+         "context_set": "babcock"
+        }
+   ]
+}
