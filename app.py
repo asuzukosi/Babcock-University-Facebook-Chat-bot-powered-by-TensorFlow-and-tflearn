@@ -5,6 +5,7 @@ import pickle
 import numpy as np
 import json
 import nltk
+nltk.download('punkt')
 import random
 from nltk.stem.lancaster import LancasterStemmer
 import tflearn
